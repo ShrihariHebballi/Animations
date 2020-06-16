@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>excercise</title>
+	<style>
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		display: flex;
+	}
+		.one{
+			width: 32%;
+			height: 0px;
+			animation-name: ex;
+			animation-duration: 5s;
+			animation-iteration-count: 1;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards;
+			animation-delay: 1s;
+			box-shadow: 1px 2px 2px #1b478e;
+					}
+
+		@keyframes ex{
+			from{background-color: white;height:0px;}
+			to{background-color:#5495ff;box-shadow: 1px 3px 4px 1px #1b478e;height:900px;}
+			
+		}
+
+		.two{
+			width: 32%;
+			height: 0px;
+			animation-name: ex1;
+			animation-duration: 5s;
+			animation-iteration-count: 1;
+			animation-delay: 0s;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards;
+			box-shadow: 1px 2px 2px #0d61e8;
+		}
+		@keyframes ex1{
+			from{background-color: white;height:0px;}
+			to{background-color: #1569ef;box-shadow: 2px 2px 3px 3px #3c3d3f;height:900px;}
+		}
+
+		.three{
+			width: 32%;
+			height:0px;
+			animation-name: ex2;
+			animation-duration: 5s;
+			animation-delay: 1s;
+			animation-iteration-count: 1;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards;
+			box-shadow: 1px 2px 2px #1b478e;
+		}
+		@keyframes ex2{
+			from{background-color: white;height:0px;}
+			to{background-color: #5495ff;box-shadow: 1px 3px 4px 1px #1b478e;;height:900px;}
+		}
+
+	</style>
+</head>
+<body>
+<div class="one" id="one">
+</div>
+
+<div class="two" id="two">
+</div>
+
+<div class="three" id="three">
+</div>
+
+</body>
+</html>
